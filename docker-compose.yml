@@ -15,7 +15,7 @@ services:
   api:
     build: .
     environment:
-      DATABASE_URL: postgresql://postgres:postgres@db:5432/annotation
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/annotation
     ports:
       - "8000:8000"
     depends_on:
