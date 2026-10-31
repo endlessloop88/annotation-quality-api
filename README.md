@@ -1,4 +1,5 @@
 # Annotation Quality API
+![CI](https://github.com/endlessloop88/annotation-quality-api/actions/workflows/ci.yml/badge.svg)
 
 A small backend service that tracks **data-annotation tasks, submissions and reviews**, and reports
 **quality metrics** (approval rate, rework rate, average score) per annotator and per project.
